@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1300" height="400" preserveAspectRatio="none" viewBox="0 0 1300 400">
+  <g mask="url(&quot;#SvgjsMask1038&quot;)" fill="none" transform="rotate(180, 650, 200)">
+    <rect width="1300" height="400" x="0" y="0" fill="rgba(244, 244, 244, 1)"></rect>
+    <path d="M44 400L444 0L703.5 0L303.5 400z" fill="url(&quot;#SvgjsLinearGradient1039&quot;)"></path>
+    <path d="M319 400L719 0L1080.5 0L680.5 400z" fill="url(&quot;#SvgjsLinearGradient1039&quot;)"></path>
+    <path d="M597 400L997 0L1063 0L663 400z" fill="url(&quot;#SvgjsLinearGradient1039&quot;)"></path>
+    <path d="M1258 400L858 0L601.5 0L1001.5 400z" fill="url(&quot;#SvgjsLinearGradient1040&quot;)"></path>
+    <path d="M977 400L577 0L236.5 0L636.5 400z" fill="url(&quot;#SvgjsLinearGradient1040&quot;)"></path>
+    <path d="M687 400L287 0L158 0L558 400z" fill="url(&quot;#SvgjsLinearGradient1040&quot;)"></path>
+    <path d="M955.1233482793398 400L1300 55.12334827933972L1300 400z" fill="url(&quot;#SvgjsLinearGradient1039&quot;)"></path>
+    <path d="M0 400L344.8766517206603 400L 0 55.12334827933972z" fill="url(&quot;#SvgjsLinearGradient1040&quot;)"></path>
+  </g>
+  <defs>
+    <mask id="SvgjsMask1038">
+      <rect width="1300" height="400" fill="#ffffff"></rect>
+    </mask>
+    <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="SvgjsLinearGradient1039">
+      <stop stop-color="rgba(123, 123, 123, 0.2)" offset="0"></stop>
+      <stop stop-opacity="0" stop-color="rgba(123, 123, 123, 0.2)" offset="0.66"></stop>
+    </linearGradient>
+    <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="SvgjsLinearGradient1040">
+      <stop stop-color="rgba(123, 123, 123, 0.2)" offset="0"></stop>
+      <stop stop-opacity="0" stop-color="rgba(123, 123, 123, 0.2)" offset="0.66"></stop>
+    </linearGradient>
+  </defs>
+</svg>

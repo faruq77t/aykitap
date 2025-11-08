@@ -1,0 +1,808 @@
+{
+  "kategoriler": [
+    {
+      "kategori_adi": "شــــــــــــــعرلار",
+      "kitaplar": [
+        {
+          "id": 3,
+          "kitap_adi": "امینه",
+          		"yazar_adi": "مسعود بهنود",
+      		    "sayfa_sayisi": 382,
+          "kitap_resmi": "/kitap/امینه/امینه.png",
+          "kitap_baglanti": "/kitap/امینه/امینه.pdf"
+        },
+        {
+          "id": 18,
+          "kitap_adi": "زمــــــــــــانه",
+         	 "yazar_adi": "نورمحمد قویاش",
+       	 	  "sayfa_sayisi": 77,
+          "kitap_resmi": "/kitap/زمــــــــــــانه/زمــــــــــــانه.png",
+          "kitap_baglanti": "/kitap/زمــــــــــــانه/زمــــــــــــانه.pdf"
+        },
+
+        {
+          "id": 23,
+          "kitap_adi": "سویگی تولقین لار",
+         	 "yazar_adi": " محمد صفر نظر امانی",
+       	 	  "sayfa_sayisi": 108,
+          "kitap_resmi": "/kitap/سویگی تولقین لار/سویگی تولقین لار.png",
+          "kitap_baglanti": "/kitap/سویگی تولقین لار/سویگی تولقین لار.pdf"
+        },
+        {
+          "id": 42,
+          "kitap_adi": "یاش شاعر لار",
+         	 "yazar_adi": "نورمحمد قویاش",
+       	 	  "sayfa_sayisi": 71,
+          "kitap_resmi": "/kitap/یاش شاعر لار/یاش شاعر لار.png",
+          "kitap_baglanti": "/kitap/یاش شاعر لار/یاش شاعر لار.pdf"
+        },
+ 		 {
+          "id": 43,
+          "kitap_adi": "یاشیل یاپراق",
+         	 "yazar_adi": "نورمحمد قویاش",
+       	 	  "sayfa_sayisi": 74,
+          "kitap_resmi": "/kitap/یاشیل یاپراق/یاشیل یاپراق.png",
+          "kitap_baglanti": "/kitap/یاشیل یاپراق/یاشیل یاپراق.pdf"
+        } ,
+        {
+          "id": 14,
+          "kitap_adi": "خوش نظم و تاقماق",
+         	 "yazar_adi": "مخلص زاده",
+       	 	  "sayfa_sayisi": 192,
+          "kitap_resmi": "/kitap/خوش نظم و تاقماق/خوش نظم و تاقماق.png",
+          "kitap_baglanti": "/kitap/خوش نظم و تاقماق/خوش نظم و تاقماق.pdf"
+        },
+    
+        {
+          "id": 5,
+          "kitap_adi": "بیرام خان خانان",
+         	 "yazar_adi": "عبدالمجید توران",
+       	 	  "sayfa_sayisi": 121,
+          "kitap_resmi": "/kitap/بیرام خان خانان/بیرام خان خانان.png",
+          "kitap_baglanti": "/kitap/بیرام خان خانان/بیرام خان خانان.pdf"
+        },
+
+
+    		 {
+          "id": 13,
+          "kitap_adi": "جونیت خان",
+         	 "yazar_adi": "آنه گولی",
+       	 	  "sayfa_sayisi": 92,
+          "kitap_resmi": "/kitap/جونیت خان/جونیت خان.png",
+          "kitap_baglanti": "/kitap/جونیت خان/جونیت خان.pdf"
+        },
+   
+    		 {
+          "id": 15,
+          "kitap_adi": "دولت گیلدی فدایی",
+         	 "yazar_adi": " دولت گیلدی قدایی",
+       	 	  "sayfa_sayisi": 189,
+          "kitap_resmi": "/kitap/دولت گیلدی فدایی/دولت گلدی فدایی.png",
+          "kitap_baglanti": "/kitap/دولت گیلدی فدایی/دولت گلدی فدایی.pdf"
+        },
+   		 {
+          "id": 16,
+          "kitap_adi": "دیوان حکمت",
+         	 "yazar_adi": "خواجه احمد یسوی",
+       	 	  "sayfa_sayisi": 243,
+          "kitap_resmi": "/kitap/دیوان حکمت/دیوان حکمت.png",
+          "kitap_baglanti": "/kitap/دیوان حکمت/دیوان حکمت.pdf"
+        },
+ 		 {
+          "id": 17,
+          "kitap_adi": "دیوان لغات الترک",
+         	 "yazar_adi": "محمود کاشغری",
+       	 	  "sayfa_sayisi": 1145,
+          "kitap_resmi": "/kitap/دیوان لغات الترک/دیوان لغات الترک.png",
+          "kitap_baglanti": "/kitap/دیوان لغات الترک/دیوان لغات الترک.pdf"
+        },
+
+ 
+ 		 {
+          "id": 22,
+          "kitap_adi": " سویجک بولسان ",
+         	 "yazar_adi": " نازمحمد پقّه",
+       	 	  "sayfa_sayisi": 30,
+          "kitap_resmi": "/kitap/سویجک بولسان/سویجک بولسان.png",
+          "kitap_baglanti": "/kitap/سویجک بولسان/سویجک بولسان.pdf"
+        },
+
+
+ 		 {
+          "id": 25,
+          "kitap_adi": "شعر بی دورغ شعر بی نقاب",
+         	 "yazar_adi": " دکتر عبدلحسین زرین کوب",
+       	 	  "sayfa_sayisi": 292,
+          "kitap_resmi": "/kitap/شعر بی دورغ شعر بی نقاب/شعر بی دورغ شعر بی نقاب.png",
+          "kitap_baglanti": "/kitap/شعر بی دورغ شعر بی نقاب/شعر بی دورغ شعر بی نقاب.pdf"
+        },
+ 		 {
+          "id": 26,
+          "kitap_adi": "صحت ایشانیگ دیوانی",
+         	 "yazar_adi": "حاج مراد دوردی قاضی",
+       	 	  "sayfa_sayisi": 119,
+          "kitap_resmi": "/kitap/صحت ایشانیگ دیوانی/صحت ایشانینگ کامل دیوانی.png",
+          "kitap_baglanti": "/kitap/صحت ایشانیگ دیوانی/صحت ایشانینگ کامل دیوانی.pdf"
+        },
+ 		 {
+          "id": 27,
+          "kitap_adi": "علیشیر نوایی 2",
+         	 "yazar_adi": "علیشیر نوایی",
+       	 	  "sayfa_sayisi": 352,
+          "kitap_resmi": "/kitap/علیشیر نوایی/ایمر علی شیر نوایی2.png",
+          "kitap_baglanti": "/kitap/علیشیر نوایی/ایمر علی شیر نوایی2.pdf"
+        },
+ 		
+ 		 {
+          "id": 29,
+          "kitap_adi": "فدایی سایلانان اثرلری",
+         	 "yazar_adi": "دولت گیلدی فدالی",
+       	 	  "sayfa_sayisi": 105,
+          "kitap_resmi": "/kitap/فدایی سایلانان اثرلری/فدایی سایلانان اثرلری.png",
+          "kitap_baglanti": "/kitap/فدایی سایلانان اثرلری/فدایی سایلانان اثرلری.pdf"
+        },
+ 		 
+ 		 {
+          "id": 34,
+          "kitap_adi": "فضولی غزا لار",
+         	 "yazar_adi": "محمد آقا سلطانوف",
+       	 	  "sayfa_sayisi": 122,
+          "kitap_resmi": "/kitap/فضولی غزا لار/فضولی غزل لار.png",
+          "kitap_baglanti": "/kitap/فضولی غزا لار/فضولی غزل لار.pdf"
+        },
+ 		 {
+          "id": 37,
+          "kitap_adi": "مخدوم قلی فراغی 1",
+         	 "yazar_adi": "نورمحمد عاشورپور",
+       	 	  "sayfa_sayisi": 539,
+          "kitap_resmi": "/kitap/مخدوم قلی فراغی/مخدوم قلی فراعی1.png",
+          "kitap_baglanti": "/kitap/مخدوم قلی فراغی/مخدوم قلی فراعی1.pdf"
+        },
+ 		 {
+          "id": 38,
+          "kitap_adi": "مخدوم قلی فراغی 2",
+         	 "yazar_adi": "نورمحمد عاشورپور",
+       	 	  "sayfa_sayisi": 358,
+          "kitap_resmi": "/kitap/مخدوم قلی فراغی/مخدوم قلی فراغی2.png",
+          "kitap_baglanti": "/kitap/مخدوم قلی فراغی/مخدوم قلی فراغی2.pdf"
+        },
+ 		 {
+          "id": 39,
+          "kitap_adi": " دیوان مسکین قیلیچ",
+         	 "yazar_adi": " تیالان: حاجی مراد دوردی قاضی",
+       	 	  "sayfa_sayisi": 156,
+          "kitap_resmi": "/kitap/دیوان مسکین قیلیچ/دیوان مسکین قیلیچ.png",
+          "kitap_baglanti": "/kitap/دیوان مسکین قیلیچ/دیوان مسکین قیلیچ.pdf"
+        },
+  		 {
+          "id": 41,
+          "kitap_adi": "  دیوان عمادالدین نسیمی",
+         	 "yazar_adi": "  تقی خمارلو",
+       	 	  "sayfa_sayisi": 47,
+          "kitap_resmi": "/kitap/نسیمی/نسیمی.png",
+          "kitap_baglanti": "/kitap/نسیمی/نسیمی.pdf"
+        }
+ 		
+
+
+    ]},
+
+    {
+      "kategori_adi": "دینــــــــــــــــــی",
+      "kitaplar": [
+        {
+          "id": 12,
+          "kitap_adi": "تفسیرعابدی 4",
+         	 "yazar_adi": "حاجی محمد آخوند عابدی کر",
+       	 	  "sayfa_sayisi": 1015,
+          "kitap_resmi": "/kitap/تفسیر عابدی/تفسیرعابدی چهارم.png",
+          "kitap_baglanti": "/kitap/تفسیر عابدی/تفسیرعابدی اول.pdf"
+        },
+        {
+          "id": 11,
+          "kitap_adi": "تفسیرعابدی 3",
+         	 "yazar_adi": "حاجی محمد آخوند عابدی کر",
+       	 	  "sayfa_sayisi": 669,
+          "kitap_resmi": "/kitap/تفسیر عابدی/تفسیرعابدی سوم.png",
+          "kitap_baglanti": "/kitap/تفسیر عابدی/تفسیرعابدی سوم.pdf"
+        },
+        {
+          "id": 10,
+          "kitap_adi": "تفسیرعابدی 2",
+         	 "yazar_adi": "حاجی محمد آخوند عابدی کر",
+       	 	  "sayfa_sayisi": 685,
+          "kitap_resmi": "/kitap/تفسیر عابدی/تفسیرعابدی دوم.png",
+          "kitap_baglanti": "/kitap/تفسیر عابدی/تفسیرعابدی دوم.pdf"
+        },
+        {
+          "id": 9,
+          "kitap_adi": "تفسیرعابدی 1",
+         	 "yazar_adi": "حاجی محمد آخوند عابدی کر",
+       	 	  "sayfa_sayisi": 568,
+          "kitap_resmi": "/kitap/تفسیر عابدی/تفسیرعابدی اول.png",
+          "kitap_baglanti": "/kitap/تفسیر عابدی/تفسیرعابدی اول.pdf"
+        },
+        {
+          "id": 99,
+          "kitap_adi": "...اهل سنت اعتقادئندا",
+         	 "yazar_adi": "عمر فاروق مدرس اوغلو",
+       	 	  "sayfa_sayisi": 568,
+          "kitap_resmi": "/kitap/اهل سنت اعتقادئندا (212) قاعده/اهل سنت اعتقادئندا (212) قاعده.png",
+          "kitap_baglanti": "/kitap/اهل سنت اعتقادئندا (212) قاعده/اهل سنت اعتقادئندا (212) قاعده.pdf"
+        }
+    ]},
+
+    {
+      "kategori_adi": "ســـــــــــوزلیک",
+      "kitaplar": [
+
+		 {
+          "id": 17,
+          "kitap_adi": "دیوان لغات الترک",
+         	 "yazar_adi": "محمود کاشغری",
+       	 	  "sayfa_sayisi": 1145,
+          "kitap_resmi": "/kitap/دیوان لغات الترک/دیوان لغات الترک.png",
+          "kitap_baglanti": "/kitap/دیوان لغات الترک/دیوان لغات الترک.pdf"
+        },
+		 {
+          "id": 30,
+          "kitap_adi": "فرهنگ اوزبیکی",
+         	 "yazar_adi": "داکتر فیض الله ایماق",
+       	 	  "sayfa_sayisi": 792,
+          "kitap_resmi": "/kitap/فرهنگ اوزبیکی/فرهنگ اوزبیکی.png",
+          "kitap_baglanti": "/kitap/فرهنگ اوزبیکی/فرهنگ اوزبیکی.pdf"
+        },
+ 		 {
+          "id": 31,
+          "kitap_adi": "فرهنگ ترکی سوزلوک",
+         	 "yazar_adi": "علی حسین زاده داشقین",
+       	 	  "sayfa_sayisi": 531,
+          "kitap_resmi": "/kitap/فرهنگ ترکی سوزلوک/فرهنگ ترکی سوزلوک.png",
+          "kitap_baglanti": "/kitap/فرهنگ ترکی سوزلوک/فرهنگ ترکی سوزلوک.pdf"
+        },
+ 		 {
+          "id": 32,
+          "kitap_adi": "فرهنگی راسخ 1",
+         	 "yazar_adi": "محمد صالی راسخ یلدیرایم",
+       	 	  "sayfa_sayisi": 242,
+          "kitap_resmi": "/kitap/فرهنگی راسخ/فرهنگ راسخ1.png",
+          "kitap_baglanti": "/kitap/فرهنگی راسخ/فرهنگ راسخ1.pdf"
+        },
+ 		 {
+          "id": 33,
+          "kitap_adi": "فرهنگی راسخ 2",
+         	 "yazar_adi": "محمد صالی راسخ یلدیرایم",
+       	 	  "sayfa_sayisi": 241,
+          "kitap_resmi": "/kitap/فرهنگی راسخ/فرهنگ راسخ2.png",
+          "kitap_baglanti": "/kitap/فرهنگی راسخ/فرهنگ راسخ2.pdf"
+        }
+
+    ]},
+
+    {
+      "kategori_adi": "تـــــــــــــــــــاریخ",
+      "kitaplar": [
+        {
+          "id": 1,
+          "kitap_adi": "افغان ترکمن لار",
+        	    "yazar_adi": "اسد الله اغوز",
+        	    "sayfa_sayisi": 45,
+          "kitap_resmi": "/kitap/افغان ترکمن لار/افغان ترکمن لار.png",
+          "kitap_baglanti": "/kitap/افغان ترکمن لار/افغان ترکمن لار.pdf"
+        },
+        {
+          "id": 2,
+          "kitap_adi": "اوغوزها وترکمن ها",
+          	  "yazar_adi": "پروفسور فاروق سومر",
+                  "sayfa_sayisi": 345,
+          "kitap_resmi": "/kitap/اوغوزها/اوغوزها.png",
+          "kitap_baglanti": "/kitap/اوغوزها/اوغوزها.pdf"
+        },
+        {
+          "id": 4,
+          "kitap_adi": "پیدایشی ترکمن",
+       	 	  "yazar_adi": "کانون خلق ترکمن",
+       		   "sayfa_sayisi": 25,
+          "kitap_resmi": "/kitap/پیدایشی ترکمن/پیدایشی ترکمن.png",
+          "kitap_baglanti": "/kitap/پیدایشی ترکمن/پیدایشی ترکمن.pdf"
+        },
+        {
+          "id": 6,
+          "kitap_adi": "تاریخ و فرهنگ ترکمن ها",
+         	 "yazar_adi": "محمد صالح راسخ یلدرم",
+       	 	  "sayfa_sayisi": 160,
+          "kitap_resmi": "/kitap/تاریخ و فرهنگ ترکمن ها/تاریخ و فرهنگ ترکمن ها.png",
+          "kitap_baglanti": "/kitap/تاریخ و فرهنگ ترکمن ها/تاریخ و فرهنگ ترکمن ها.pdf"
+        },
+        {
+          "id": 7,
+          "kitap_adi": "ترکمن فولکلوری ",
+         	 "yazar_adi": "حاج مراد دوردی قاضی",
+       	 	  "sayfa_sayisi": 115,
+          "kitap_resmi": "/kitap/ترکمن فولکلوری/ترکمن فولکلوری.png",
+          "kitap_baglanti": "/kitap/ترکمن فولکلوری/ترکمن فولکلوری.pdf"
+        },
+        {
+          "id": 8,
+          "kitap_adi": "ترکمن های جهان",
+         	 "yazar_adi": "امانگلدی ضمیر",
+       	 	  "sayfa_sayisi": 88,
+          "kitap_resmi": "/kitap/ترکمن های جهان/ترکمن های جهان.png",
+          "kitap_baglanti": "/kitap/ترکمن های جهان/ترکمن های جهان.pdf"
+        },
+
+ 		 {
+          "id": 21,
+          "kitap_adi": " سزاوار این نبودیم ",
+         	 "yazar_adi": "نورمحمد قرقین",
+       	 	  "sayfa_sayisi": 58,
+          "kitap_resmi": "/kitap/سزاوار این نبودیم/سزاوار این نبودیم.png",
+          "kitap_baglanti": "/kitap/سزاوار این نبودیم/سزاوار این نبودیم.pdf"
+        },
+ 		 {
+          "id": 24,
+          "kitap_adi": "شجره ترکمه",
+         	 "yazar_adi": "محمد صالح راسخ یلدرم",
+       	 	  "sayfa_sayisi": 29,
+          "kitap_resmi": "/kitap/شجره ترکمه/شجره ترکمه.png",
+          "kitap_baglanti": "/kitap/شجره ترکمه/شجره ترکمه.pdf"
+        },
+ 		 {
+          "id": 28,
+          "kitap_adi": "فارسی گویان ترکمن",
+         	 "yazar_adi": "محمود یاردم صادقی",
+       	 	  "sayfa_sayisi": 164,
+          "kitap_resmi": "/kitap/فارسی گویان ترکمن/فارسی گویان ترکمن.png",
+          "kitap_baglanti": "/kitap/فارسی گویان ترکمن/فارسی گویان ترکمن.pdf"
+        },
+ 		 {
+          "id": 40,
+          "kitap_adi": " موسیقی ترکمنی",
+         	 "yazar_adi": " محمد تقی مسعودیه",
+       	 	  "sayfa_sayisi": 354,
+          "kitap_resmi": "/kitap/موسیقی ترکمنی/موسیقی ترکمنی.png",
+          "kitap_baglanti": "/kitap/موسیقی ترکمنی/موسیقی ترکمنی.pdf"
+        },
+ 		 {
+          "id": 44,
+          "kitap_adi": "1 یاپراق",
+         	 "yazar_adi": "محمود عطاگزلی",
+       	 	  "sayfa_sayisi": 74,
+          "kitap_resmi": "/kitap/یپراق/یپراق1.png",
+          "kitap_baglanti": "/kitap/یپراق/یپراق1.pdf"
+        },
+ 		 {
+          "id": 45,
+          "kitap_adi": "2 یاپراق",
+         	 "yazar_adi": "محمود عطاگزلی",
+       	 	  "sayfa_sayisi": 74,
+          "kitap_resmi": "/kitap/یپراق/یپراق2.png",
+          "kitap_baglanti": "/kitap/یپراق/یپراق2.pdf"
+        },
+ 		 {
+          "id": 455,
+          "kitap_adi": "ترکمن های افغانستان در اینه سیاست",
+         	 "yazar_adi": " فضل الدین حاجی زاده",
+       	 	  "sayfa_sayisi": 74,
+          "kitap_resmi": "/kitap/ترکمن های افغانستان در اینه سیاست/ترکمن های افغانستان در اینه سیاست.png",
+          "kitap_baglanti": "/kitap/ترکمن های افغانستان در اینه سیاست/ترکمن های افغانستان در اینه سیاست.pdf"
+        }
+
+
+    ]},
+
+    {
+      "kategori_adi": "داستـــــــان لار",
+      "kitaplar": [
+       
+ 		 {
+          "id": 19,
+          "kitap_adi": "زهره و طاهیر",
+         	 "yazar_adi": "ملا نفس",
+       	 	  "sayfa_sayisi": 194,
+          "kitap_resmi": "/kitap/زهره و طاهیر/زهره و طاهیر.png",
+          "kitap_baglanti": "/kitap/زهره و طاهیر/زهره و طاهیر.pdf"
+        },
+        {
+          "id": 35,
+          "kitap_adi": "گوروغلی",
+         	 "yazar_adi": "تورکمن خالقی اوجاغی",
+       	 	  "sayfa_sayisi": 502,
+          "kitap_resmi": "/kitap/گوروغلی/گوروغلی.png",
+          "kitap_baglanti": "/kitap/گوروغلی/گوروغلی.pdf"
+        },
+ 		 {
+          "id": 36,
+          "kitap_adi": "لیلی - مجنون",
+         	 "yazar_adi": "نورمحمد عندلیب",
+       	 	  "sayfa_sayisi": 149,
+          "kitap_resmi": "/kitap/لیلی - مجنون/لیلی - مجنون.png",
+          "kitap_baglanti": "/kitap/لیلی - مجنون/لیلی - مجنون.pdf"
+        }
+
+    ]},
+    {
+      "kategori_adi": "چــــــــــــاغه لار",
+      "kitaplar": [
+        
+ 		 {
+          "id": 20,
+          "kitap_adi": " زهین لی چاغالار ",
+         	 "yazar_adi": "ترجمه: حاجی قلی یولداش",
+       	 	  "sayfa_sayisi": 37,
+          "kitap_resmi": "/kitap/زهین لی چاغالار/زهین لی چاغالار.png",
+          "kitap_baglanti": "/kitap/زهین لی چاغالار/زهین لی چاغالار.pdf"
+        }
+    ]},
+    {
+      "kitaplar": [
+        {
+          "id": 1,
+          "kitap_adi": "افغان ترکمن لار",
+        	    "yazar_adi": "اسد الله اغوز",
+        	    "sayfa_sayisi": 45,
+          "kitap_resmi": "/kitap/افغان ترکمن لار/افغان ترکمن لار.png",
+          "kitap_baglanti": "/kitap/افغان ترکمن لار/افغان ترکمن لار.pdf"
+        },
+        {
+          "id": 2,
+          "kitap_adi": "اوغوزها وترکمن ها",
+          	  "yazar_adi": "پروفسور فاروق سومر",
+                  "sayfa_sayisi": 345,
+          "kitap_resmi": "/kitap/اوغوزها/اوغوزها.png",
+          "kitap_baglanti": "/kitap/اوغوزها/اوغوزها.pdf"
+        },
+        {
+          "id": 12,
+          "kitap_adi": "تفسیرعابدی 4",
+         	 "yazar_adi": "حاجی محمد آخوند عابدی کر",
+       	 	  "sayfa_sayisi": 1015,
+          "kitap_resmi": "/kitap/تفسیر عابدی/تفسیرعابدی چهارم.png",
+          "kitap_baglanti": "/kitap/تفسیر عابدی/تفسیرعابدی اول.pdf"
+        },
+        {
+          "id": 11,
+          "kitap_adi": "تفسیرعابدی 3",
+         	 "yazar_adi": "حاجی محمد آخوند عابدی کر",
+       	 	  "sayfa_sayisi": 669,
+          "kitap_resmi": "/kitap/تفسیر عابدی/تفسیرعابدی سوم.png",
+          "kitap_baglanti": "/kitap/تفسیر عابدی/تفسیرعابدی سوم.pdf"
+        },
+        {
+          "id": 10,
+          "kitap_adi": "تفسیرعابدی 2",
+         	 "yazar_adi": "حاجی محمد آخوند عابدی کر",
+       	 	  "sayfa_sayisi": 685,
+          "kitap_resmi": "/kitap/تفسیر عابدی/تفسیرعابدی دوم.png",
+          "kitap_baglanti": "/kitap/تفسیر عابدی/تفسیرعابدی دوم.pdf"
+        },
+        {
+          "id": 9,
+          "kitap_adi": "تفسیرعابدی 1",
+         	 "yazar_adi": "حاجی محمد آخوند عابدی کر",
+       	 	  "sayfa_sayisi": 568,
+          "kitap_resmi": "/kitap/تفسیر عابدی/تفسیرعابدی اول.png",
+          "kitap_baglanti": "/kitap/تفسیر عابدی/تفسیرعابدی اول.pdf"
+        },
+
+
+
+        {
+          "id": 4,
+          "kitap_adi": "پیدایشی ترکمن",
+       	 	  "yazar_adi": "کانون خلق ترکمن",
+       		   "sayfa_sayisi": 25,
+          "kitap_resmi": "/kitap/پیدایشی ترکمن/پیدایشی ترکمن.png",
+          "kitap_baglanti": "/kitap/پیدایشی ترکمن/پیدایشی ترکمن.pdf"
+        },
+        {
+          "id": 3,
+          "kitap_adi": "امینه",
+          		"yazar_adi": "مسعود بهنود",
+      		    "sayfa_sayisi": 382,
+          "kitap_resmi": "/kitap/امینه/امینه.png",
+          "kitap_baglanti": "/kitap/امینه/امینه.pdf"
+        },
+        {
+          "id": 5,
+          "kitap_adi": "بیرام خان خانان",
+         	 "yazar_adi": "عبدالمجید توران",
+       	 	  "sayfa_sayisi": 121,
+          "kitap_resmi": "/kitap/بیرام خان خانان/بیرام خان خانان.png",
+          "kitap_baglanti": "/kitap/بیرام خان خانان/بیرام خان خانان.pdf"
+        },
+        {
+          "id": 6,
+          "kitap_adi": "تاریخ و فرهنگ ترکمن ها",
+         	 "yazar_adi": "محمد صالح راسخ یلدرم",
+       	 	  "sayfa_sayisi": 160,
+          "kitap_resmi": "/kitap/تاریخ و فرهنگ ترکمن ها/تاریخ و فرهنگ ترکمن ها.png",
+          "kitap_baglanti": "/kitap/تاریخ و فرهنگ ترکمن ها/تاریخ و فرهنگ ترکمن ها.pdf"
+        },
+        {
+          "id": 7,
+          "kitap_adi": "ترکمن فولکلوری ",
+         	 "yazar_adi": "حاج مراد دوردی قاضی",
+       	 	  "sayfa_sayisi": 115,
+          "kitap_resmi": "/kitap/ترکمن فولکلوری/ترکمن فولکلوری.png",
+          "kitap_baglanti": "/kitap/ترکمن فولکلوری/ترکمن فولکلوری.pdf"
+        },
+        {
+          "id": 8,
+          "kitap_adi": "ترکمن های جهان",
+         	 "yazar_adi": "امانگلدی ضمیر",
+       	 	  "sayfa_sayisi": 88,
+          "kitap_resmi": "/kitap/ترکمن های جهان/ترکمن های جهان.png",
+          "kitap_baglanti": "/kitap/ترکمن های جهان/ترکمن های جهان.pdf"
+        },
+
+    		 {
+          "id": 13,
+          "kitap_adi": "جونیت خان",
+         	 "yazar_adi": "آنه گولی",
+       	 	  "sayfa_sayisi": 92,
+          "kitap_resmi": "/kitap/جونیت خان/جونیت خان.png",
+          "kitap_baglanti": "/kitap/جونیت خان/جونیت خان.pdf"
+        },
+    		 {
+          "id": 14,
+          "kitap_adi": "خوش نظم و تاقماق",
+         	 "yazar_adi": "مخلص زاده",
+       	 	  "sayfa_sayisi": 192,
+          "kitap_resmi": "/kitap/خوش نظم و تاقماق/خوش نظم و تاقماق.png",
+          "kitap_baglanti": "/kitap/خوش نظم و تاقماق/خوش نظم و تاقماق.pdf"
+        },
+    		 {
+          "id": 15,
+          "kitap_adi": "دولت گیلدی فدایی",
+         	 "yazar_adi": " دولت گیلدی قدایی",
+       	 	  "sayfa_sayisi": 189,
+          "kitap_resmi": "/kitap/دولت گیلدی فدایی/دولت گلدی فدایی.png",
+          "kitap_baglanti": "/kitap/دولت گیلدی فدایی/دولت گلدی فدایی.pdf"
+        },
+   		 {
+          "id": 16,
+          "kitap_adi": "دیوان حکمت",
+         	 "yazar_adi": "خواجه احمد یسوی",
+       	 	  "sayfa_sayisi": 243,
+          "kitap_resmi": "/kitap/دیوان حکمت/دیوان حکمت.png",
+          "kitap_baglanti": "/kitap/دیوان حکمت/دیوان حکمت.pdf"
+        },
+ 		 {
+          "id": 17,
+          "kitap_adi": "دیوان لغات الترک",
+         	 "yazar_adi": "محمود کاشغری",
+       	 	  "sayfa_sayisi": 1145,
+          "kitap_resmi": "/kitap/دیوان لغات الترک/دیوان لغات الترک.png",
+          "kitap_baglanti": "/kitap/دیوان لغات الترک/دیوان لغات الترک.pdf"
+        },
+ 		 {
+          "id": 18,
+          "kitap_adi": "زمــــــــــــانه",
+         	 "yazar_adi": "نورمحمد قویاش",
+       	 	  "sayfa_sayisi": 77,
+          "kitap_resmi": "/kitap/زمــــــــــــانه/زمــــــــــــانه.png",
+          "kitap_baglanti": "/kitap/زمــــــــــــانه/زمــــــــــــانه.pdf"
+        },
+ 		 {
+          "id": 19,
+          "kitap_adi": "زهره و طاهیر",
+         	 "yazar_adi": "ملا نفس",
+       	 	  "sayfa_sayisi": 194,
+          "kitap_resmi": "/kitap/زهره و طاهیر/زهره و طاهیر.png",
+          "kitap_baglanti": "/kitap/زهره و طاهیر/زهره و طاهیر.pdf"
+        },
+ 		 {
+          "id": 20,
+          "kitap_adi": " زهین لی چاغالار ",
+         	 "yazar_adi": "ترجمه: حاجی قلی یولداش",
+       	 	  "sayfa_sayisi": 37,
+          "kitap_resmi": "/kitap/زهین لی چاغالار/زهین لی چاغالار.png",
+          "kitap_baglanti": "/kitap/زهین لی چاغالار/زهین لی چاغالار.pdf"
+        },
+ 		 {
+          "id": 21,
+          "kitap_adi": " سزاوار این نبودیم ",
+         	 "yazar_adi": "نورمحمد قرقین",
+       	 	  "sayfa_sayisi": 58,
+          "kitap_resmi": "/kitap/سزاوار این نبودیم/سزاوار این نبودیم.png",
+          "kitap_baglanti": "/kitap/سزاوار این نبودیم/سزاوار این نبودیم.pdf"
+        },
+ 		 {
+          "id": 22,
+          "kitap_adi": " سویجک بولسان ",
+         	 "yazar_adi": " نازمحمد پقّه",
+       	 	  "sayfa_sayisi": 30,
+          "kitap_resmi": "/kitap/سویجک بولسان/سویجک بولسان.png",
+          "kitap_baglanti": "/kitap/سویجک بولسان/سویجک بولسان.pdf"
+        },
+ 		 {
+          "id": 23,
+          "kitap_adi": "سویگی تولقین لار",
+         	 "yazar_adi": " محمد صفر نظر امانی",
+       	 	  "sayfa_sayisi": 108,
+          "kitap_resmi": "/kitap/سویگی تولقین لار/سویگی تولقین لار.png",
+          "kitap_baglanti": "/kitap/سویگی تولقین لار/سویگی تولقین لار.pdf"
+        },
+ 		 {
+          "id": 24,
+          "kitap_adi": "شجره ترکمه",
+         	 "yazar_adi": "محمد صالح راسخ یلدرم",
+       	 	  "sayfa_sayisi": 29,
+          "kitap_resmi": "/kitap/شجره ترکمه/شجره ترکمه.png",
+          "kitap_baglanti": "/kitap/شجره ترکمه/شجره ترکمه.pdf"
+        },
+ 		 {
+          "id": 25,
+          "kitap_adi": "شعر بی دورغ شعر بی نقاب",
+         	 "yazar_adi": " دکتر عبدلحسین زرین کوب",
+       	 	  "sayfa_sayisi": 292,
+          "kitap_resmi": "/kitap/شعر بی دورغ شعر بی نقاب/شعر بی دورغ شعر بی نقاب.png",
+          "kitap_baglanti": "/kitap/شعر بی دورغ شعر بی نقاب/شعر بی دورغ شعر بی نقاب.pdf"
+        },
+ 		 {
+          "id": 26,
+          "kitap_adi": "صحت ایشانیگ دیوانی",
+         	 "yazar_adi": "حاج مراد دوردی قاضی",
+       	 	  "sayfa_sayisi": 119,
+          "kitap_resmi": "/kitap/صحت ایشانیگ دیوانی/صحت ایشانینگ کامل دیوانی.png",
+          "kitap_baglanti": "/kitap/صحت ایشانیگ دیوانی/صحت ایشانینگ کامل دیوانی.pdf"
+        },
+ 		 {
+          "id": 27,
+          "kitap_adi": "علیشیر نوایی 2",
+         	 "yazar_adi": "علیشیر نوایی",
+       	 	  "sayfa_sayisi": 352,
+          "kitap_resmi": "/kitap/علیشیر نوایی/ایمر علی شیر نوایی2.png",
+          "kitap_baglanti": "/kitap/علیشیر نوایی/ایمر علی شیر نوایی2.pdf"
+        },
+ 		 {
+          "id": 28,
+          "kitap_adi": "فارسی گویان ترکمن",
+         	 "yazar_adi": "محمود یاردم صادقی",
+       	 	  "sayfa_sayisi": 164,
+          "kitap_resmi": "/kitap/فارسی گویان ترکمن/فارسی گویان ترکمن.png",
+          "kitap_baglanti": "/kitap/فارسی گویان ترکمن/فارسی گویان ترکمن.pdf"
+        },
+ 		 {
+          "id": 29,
+          "kitap_adi": "فدایی سایلانان اثرلری",
+         	 "yazar_adi": "دولت گیلدی فدالی",
+       	 	  "sayfa_sayisi": 105,
+          "kitap_resmi": "/kitap/فدایی سایلانان اثرلری/فدایی سایلانان اثرلری.png",
+          "kitap_baglanti": "/kitap/فدایی سایلانان اثرلری/فدایی سایلانان اثرلری.pdf"
+        },
+ 		 {
+          "id": 30,
+          "kitap_adi": "فرهنگ اوزبیکی",
+         	 "yazar_adi": "داکتر فیض الله ایماق",
+       	 	  "sayfa_sayisi": 792,
+          "kitap_resmi": "/kitap/فرهنگ اوزبیکی/فرهنگ اوزبیکی.png",
+          "kitap_baglanti": "/kitap/فرهنگ اوزبیکی/فرهنگ اوزبیکی.pdf"
+        },
+ 		 {
+          "id": 31,
+          "kitap_adi": "فرهنگ ترکی سوزلوک",
+         	 "yazar_adi": "علی حسین زاده داشقین",
+       	 	  "sayfa_sayisi": 531,
+          "kitap_resmi": "/kitap/فرهنگ ترکی سوزلوک/فرهنگ ترکی سوزلوک.png",
+          "kitap_baglanti": "/kitap/فرهنگ ترکی سوزلوک/فرهنگ ترکی سوزلوک.pdf"
+        },
+ 		 {
+          "id": 32,
+          "kitap_adi": "فرهنگی راسخ 1",
+         	 "yazar_adi": "محمد صالی راسخ یلدیرایم",
+       	 	  "sayfa_sayisi": 242,
+          "kitap_resmi": "/kitap/فرهنگی راسخ/فرهنگ راسخ1.png",
+          "kitap_baglanti": "/kitap/فرهنگی راسخ/فرهنگ راسخ1.pdf"
+        },
+ 		 {
+          "id": 33,
+          "kitap_adi": "فرهنگی راسخ 2",
+         	 "yazar_adi": "محمد صالی راسخ یلدیرایم",
+       	 	  "sayfa_sayisi": 241,
+          "kitap_resmi": "/kitap/فرهنگی راسخ/فرهنگ راسخ2.png",
+          "kitap_baglanti": "/kitap/فرهنگی راسخ/فرهنگ راسخ2.pdf"
+        },
+ 		 {
+          "id": 34,
+          "kitap_adi": "فضولی غزا لار",
+         	 "yazar_adi": "محمد آقا سلطانوف",
+       	 	  "sayfa_sayisi": 122,
+          "kitap_resmi": "/kitap/فضولی غزا لار/فضولی غزل لار.png",
+          "kitap_baglanti": "/kitap/فضولی غزا لار/فضولی غزل لار.pdf"
+        },
+ 		 {
+          "id": 35,
+          "kitap_adi": "گوروغلی",
+         	 "yazar_adi": "تورکمن خالقی نینگ مدنی سیاسی اوجاغی",
+       	 	  "sayfa_sayisi": 502,
+          "kitap_resmi": "/kitap/گوروغلی/گوروغلی.png",
+          "kitap_baglanti": "/kitap/گوروغلی/گوروغلی.pdf"
+        },
+ 		 {
+          "id": 36,
+          "kitap_adi": "لیلی - مجنون",
+         	 "yazar_adi": "نورمحمد عندلیب",
+       	 	  "sayfa_sayisi": 149,
+          "kitap_resmi": "/kitap/لیلی - مجنون/لیلی - مجنون.png",
+          "kitap_baglanti": "/kitap/لیلی - مجنون/لیلی - مجنون.pdf"
+        },
+ 		 {
+          "id": 37,
+          "kitap_adi": "مخدوم قلی فراغی 1",
+         	 "yazar_adi": "نورمحمد عاشورپور",
+       	 	  "sayfa_sayisi": 539,
+          "kitap_resmi": "/kitap/مخدوم قلی فراغی/مخدوم قلی فراعی1.png",
+          "kitap_baglanti": "/kitap/مخدوم قلی فراغی/مخدوم قلی فراعی1.pdf"
+        },
+ 		 {
+          "id": 38,
+          "kitap_adi": "مخدوم قلی فراغی 2",
+         	 "yazar_adi": "نورمحمد عاشورپور",
+       	 	  "sayfa_sayisi": 358,
+          "kitap_resmi": "/kitap/مخدوم قلی فراغی/مخدوم قلی فراغی2.png",
+          "kitap_baglanti": "/kitap/مخدوم قلی فراغی/مخدوم قلی فراغی2.pdf"
+        },
+ 		 {
+          "id": 39,
+          "kitap_adi": " دیوان مسکین قیلیچ",
+         	 "yazar_adi": " تیالان: حاجی مراد دوردی قاضی",
+       	 	  "sayfa_sayisi": 156,
+          "kitap_resmi": "/kitap/دیوان مسکین قیلیچ/دیوان مسکین قیلیچ.png",
+          "kitap_baglanti": "/kitap/دیوان مسکین قیلیچ/دیوان مسکین قیلیچ.pdf"
+        },
+ 		 {
+          "id": 40,
+          "kitap_adi": " موسیقی ترکمنی",
+         	 "yazar_adi": " محمد تقی مسعودیه",
+       	 	  "sayfa_sayisi": 354,
+          "kitap_resmi": "/kitap/موسیقی ترکمنی/موسیقی ترکمنی.png",
+          "kitap_baglanti": "/kitap/موسیقی ترکمنی/موسیقی ترکمنی.pdf"
+        },
+ 		 {
+          "id": 41,
+          "kitap_adi": "  دیوان عمادالدین نسیمی",
+         	 "yazar_adi": "  تقی خمارلو",
+       	 	  "sayfa_sayisi": 47,
+          "kitap_resmi": "/kitap/نسیمی/نسیمی.png",
+          "kitap_baglanti": "/kitap/نسیمی/نسیمی.pdf"
+        },
+ 		 {
+          "id": 42,
+          "kitap_adi": "یاش شاعر لار",
+         	 "yazar_adi": "نورمحمد قویاش",
+       	 	  "sayfa_sayisi": 71,
+          "kitap_resmi": "/kitap/یاش شاعر لار/یاش شاعر لار.png",
+          "kitap_baglanti": "/kitap/یاش شاعر لار/یاش شاعر لار.pdf"
+        },
+ 		 {
+          "id": 43,
+          "kitap_adi": "یاشیل یاپراق",
+         	 "yazar_adi": "نورمحمد قویاش",
+       	 	  "sayfa_sayisi": 74,
+          "kitap_resmi": "/kitap/یاشیل یاپراق/یاشیل یاپراق.png",
+          "kitap_baglanti": "/kitap/یاشیل یاپراق/یاشیل یاپراق.pdf"
+        },
+ 		 {
+          "id": 44,
+          "kitap_adi": "1 یاپراق",
+         	 "yazar_adi": "محمود عطاگزلی",
+       	 	  "sayfa_sayisi": 74,
+          "kitap_resmi": "/kitap/یپراق/یپراق1.png",
+          "kitap_baglanti": "/kitap/یپراق/یپراق1.pdf"
+        },
+ 		 {
+          "id": 45,
+          "kitap_adi": "2 یاپراق",
+         	 "yazar_adi": "محمود عطاگزلی",
+       	 	  "sayfa_sayisi": 74,
+          "kitap_resmi": "/kitap/یپراق/یپراق2.png",
+          "kitap_baglanti": "/kitap/یپراق/یپراق2.pdf"
+        }
+
+
+    ]}
+ 
+ 
+ ]}

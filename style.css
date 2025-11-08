@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+/* İndirme çubuğu stilleri - Popup'tan daha üstte görünecek */
+#progress-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #f0f0f0;
+  z-index: 1004; /* Popup'tan daha yüksek z-index */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#progress-bar {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #4CAF50, #45a049);
+  transition: width 0.3s ease;
+  border-radius: 0 2px 2px 0;
+}
+
+#progress-text {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #333;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 4px 12px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border: 1px solid #e0e0e0;
+  font-weight: 500;
+}
+
+body {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header{
+  display: flex;
+  max-width: 1300px;
+  height: 200px;
+  margin: auto;
+  background-image: url(/svg/RectLight.svg);
+  text-align: center;
+  align-items: center;
+}
+.sag{
+  max-height: 200px;
+  padding-right: 320px;
+}
+.sag img{
+  margin-top: 20px;
+  max-width: 150px;
+  
+}
+.sol{
+  min-width: 600px;
+  max-height: 200px;
+  text-align: end;
+  padding-right: 90px;
+}
+.Hbaslık{
+  margin-top: -15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+nav {
+  background-color: #0e7a7c;
+  max-width: 1300px;
+  margin: auto;
+  position: sticky;
+  top: 0px;
+  border-bottom: 2px solid #f1f1f1;
+  z-index: 1002;
+}
+nav .menu{
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: bold;
+  background-color: #0e7a7c;
+  color: white;
+  padding: 10px 20px 10px 20px ;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+nav .menu:hover{
+  background-color: #095c5e;
+
+}
+.mobile {
+  background-color: #c7c7c7;
+  position: absolute;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  display: inline-block; /* Or block, depending on your layout */
+}
+
+.mobile span {
+  font-size: 1.5em; /* Adjust size as needed */
+  cursor: pointer;
+  padding: 0  15px;
+  margin-left: 140px;
+  
+}
+.Mlogo img{
+width: 25px;
+margin-bottom: -5px;
+margin-right: 5px;
+background: #fff;
+border-radius: 5px;
+
+}
+
+/* Progress bar stilleri güncellendi */
+#progress-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #f0f0f0;
+  z-index: 1004;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#progress-bar {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #4CAF50, #45a049);
+  transition: width 0.3s ease;
+  border-radius: 0 2px 2px 0;
+}
+
+#progress-text {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #333;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 4px 12px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border: 1px solid #e0e0e0;
+  font-weight: 500;
+}
+.popupM {
+  display: none;
+  position: absolute;
+  margin: auto;
+  right: 15px;
+  top: 100%; /* Position below the trigger */
+  background-color: #f9f9f9;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px;
+  
+}
+
+.popupM a {
+  margin: 1px;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  border: 1px solid #dddddd;
+}
+
+.popupM a:hover {background-color: #ddd;}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.book {
+  display: inline-block;
+  width: 13%;
+  margin: 1%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+  cursor: none; /* Fare imlecini gizlemek için */
+}
+
+.book:hover {
+  transform: scale(1.05);
+  cursor: pointer; /* Fare imleci tıklanabilir olduğunda gösterilir */
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+}
+
+.book h3 {
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.book p {
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #0e7a7c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed; /* Fare imleci devre dışı olduğunda gösterilir */
+}
+
+.pagination span {
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+}
+
+.pagination .active {
+  background-color: #0e7a7c;
+  color: white;
+}
+
+/* Input ve textarea dışında yazı imlecini gizlemek için */
+* {
+  caret-color: transparent; /* Yazı imlecini gizler */
+}
+
+input, textarea {
+  caret-color: auto; /* Input ve textarea alanlarında yazı imlecini gösterir */
+}
+
+/* Dropdown CSS */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropbtn {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: bold;
+  background-color: #0e7a7c;
+  color: white;
+  padding: 10px 45px  ;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover {
+  background-color: #095c5e;
+  ;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1003; 
+  animation: fadeIn 0.5s; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin-top: 190px;
+  padding-bottom: 40px;
+  max-width: 600px;
+  position: relative;
+  z-index: 1001; /* İçeriklerin düzgün görünmesi için */
+  cursor: default; /* Fare imlecini göstermek için */
+}
+
+.popup-content .close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.popup-content img {
+  margin-top: -350px;
+  margin-bottom: -60px;
+
+}
+
+
+/* Popup buton stilleri */
+.download-btn {
+  padding: 10px 20px;
+  background: #ff8902;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 10px;
+  border: 2px solid #ff8902;
+}
+
+.download-btn:hover {
+  padding: 10px 20px;
+  background: #fff;
+  color: #ff8902;
+  border: 2px solid #ff8902;
+}
+
+
+.popup p{
+ line-height: 0.5;
+  }
+  .popup p:nth-of-type(2) {
+    margin-bottom: 30px;
+  }
+.popup a{
+  padding: 10px 20px;
+  background: #ff8902;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 10px;
+  border: 2px solid #ff8902;
+}
+.popup a:hover{
+  padding: 10px 20px;
+  background: #fff;
+  color: #ff8902;
+  border: 2px solid #ff8902;
+}
+.yola{
+  padding: 10px 20px;
+  background: #ff8902;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  border: 2px solid #ff8902;
+}
+.yola:hover{
+  padding: 10px 20px;
+  background: #fff;
+  color: #ff8902;
+  border: 2px solid #ff8902;
+}
+.book {
+  margin: 50px 10px;
+}
+
+.book img {
+  margin-top: -90px;
+}
+
+.atlicerik{
+  display: flex;
+  max-width: 1300px;
+  min-height: 400px;
+  background-image: url(/svg/Shiny\ Overlay.svg);
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.foto img{
+  max-width: 300px;
+  margin-left: 100px;
+  margin-top: -20px;
+}
+
+.yaz h2{
+ color: #fff;
+ justify-content: end;
+ justify-content: end;
+ align-items: end;
+ text-align: end;
+
+}
+.yaz p{
+  max-width: 700px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  justify-content: end;
+  align-items: end;
+  text-align: end;
+}
+.atlicerik2{
+  display: flex;
+  max-width: 1300px;
+  min-height: 400px;
+  background-image: url(/svg/PolygonLuminary.svg);
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 50px;
+}
+.foto img{
+  max-width: 300px;
+  margin-left: 100px;
+  margin-top: -20px;
+}
+.yaz2{
+  max-width: 600px;
+  margin: auto;
+}
+.yaz2 h2{
+ color: #fff;
+}
+.yaz2 p{
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+footer{
+  background-image: url(/svg/bgfo.svg);
+  margin: auto;
+  max-width: 1300px;
+  min-height: 400px;
+}
+
+.fotr img{
+  max-width: 177px;
+  margin-top: 50px;
+}
+.fotr a{
+   font-family: "IBM Plex Sans Arabic", sans-serif;;
+   padding: 0 5px;
+   text-decoration: none;
+   color: #00646b;
+   font-weight: bold;
+}
+.fotr .kyola{
+  font-family: "IBM Plex Sans Arabic", sans-serif;;
+  padding: 0 5px;
+  text-decoration: none;
+  color: #e25503;
+}
+.fotr p:nth-of-type(2){
+  font-weight: bold;
+}
+.fotr .suu{
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  color: black;
+  font-weight: 500;
+}
+nav.mobile{
+  display: none;
+}
+
+/* Medya sorguları */
+@media (max-width: 1024px) {
+  .book {
+    width: 23%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .book {
+    width: 42%;
+  }
+
+  .pagination button, .pagination span {
+    padding: 8px 12px;
+    margin: 0 5px;
+  }
+  .pc{
+    display: none;
+   }
+   header{
+    display: none;
+   }
+   
+  /* Mobil için progress bar */
+  #progress-text {
+    font-size: 11px;
+    padding: 3px 10px;
+    top: 8px;
+  }
+}
+
+@media (max-width: 580px) {
+ .pc{
+  display: none;
+ }
+ nav.mobile{
+  display: block;
+}
+ .atlicerik{
+  display: none;
+ }
+ .atlicerik2{
+  display: none;
+ }
+ header{
+  display: none;
+ }
+
+  .popup-content img {
+    width: 250px;
+    padding-bottom: 10px;
+  }
+  .dropbtn {
+    padding: 12px;
+    font-size: 14px;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  footer{
+    max-width: 480px;
+    margin: auto;
+  }
+  .fotr img{
+    max-width: 100px;
+    margin-top: 70px;
+    margin-bottom: 9px;
+  }
+  .fotr p {
+    font-size: 12px;
+  }
+  .son{
+    padding-top: 90px;
+  }
+  
+  /* Küçük ekranlar için progress bar */
+  #progress-text {
+    font-size: 10px;
+    padding: 2px 8px;
+    top: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bslik {
+    font-size: 18px;
+    margin-top: -130px;
+  }
+
+  #search-box {
+    font-size: 14px;
+    font-family: "IBM Plex Sans Arabic", sans-serif; /* Genel font tanımı */
+    margin-bottom: -25px;
+  }
+
+  #categories button {
+    display: none;
+  }
+
+  #sozfa-list p:nth-of-type(1) {
+    font-size: 12px;
+  }
+
+  #sozfa-list p:nth-of-type(2) {
+    font-size: 10px;
+  }
+
+  #sozfa-list li {
+    font-size: 14px;
+    padding: 5px;
+    padding-right: 10px;
+  }
+
+  #sozfa-list div {
+    font-size: 14px;
+  }
+}

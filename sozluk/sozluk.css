@@ -1,0 +1,145 @@
+
+.bslik {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#sozluk {
+  min-height: 1000px;
+  align-items: center;
+  direction: rtl;
+}
+
+#search {
+  margin-bottom: 20px;
+  text-align: right;
+  border: none;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#search-box {
+  width: 700px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#categories {
+  margin-bottom: 20px;
+  text-align: right;
+  display: none;
+}
+
+#categories button {
+  padding: 15px 19px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  border-radius: 5px;
+}
+
+#categories button:hover {
+  background-color: #e0e0e0;
+}
+
+#sozfa-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 700px;
+  max-height: 800px; /* Belirlenen boyut sınırı */
+  margin: auto;
+  overflow-y: scroll; /* Sadece dikey kaydırma aktif */
+  scrollbar-width: auto; /* Firefox için kaydırma çubuğunu gizleme */
+  direction: rtl;
+}
+
+#sozfa-list p:nth-of-type(2) {
+  padding-top: 6px;
+  margin-right: 5px;
+  border-top: 1px solid #e0e0e0;
+}
+
+#sozfa-list p:nth-of-type(2) a {
+  text-decoration: none;
+  font-weight: 500;
+  color: red;
+}
+
+#sozfa-list p:nth-of-type(1) {
+  margin-right: 5px;
+  padding-bottom: 10px;
+}
+
+#sozfa-list::-webkit-scrollbar {
+  display: none; /* WebKit tarayıcılarında kaydırma çubuğunu gizleme */
+}
+
+#sozfa-list li {
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  text-align: right; /* Liste elemanları sağa hizalanır */
+  transition: background-color 0.3s ease;
+}
+
+#sozfa-list li:hover {
+  background-color: #e0e0e0;
+}
+
+#sozfa-list div {
+  margin-bottom: 10px;
+  text-align: right; /* Detaylar sağa hizalanır */
+}
+
+@media (max-width: 580px) {
+  .bslik {
+    font-size: 18px;
+    margin: 50px;
+    margin-top: -100px;
+  }
+
+  #search-box {
+    font-size: 14px;
+    margin: 1px 20px;
+    margin-top: -20px;
+  }
+
+  #categories {
+    display: none; /* Küçük ekranlarda kategorileri gizle */
+  }
+
+  #sozfa-list p:nth-of-type(1) {
+    font-size: 14px;
+  }
+
+  #sozfa-list p:nth-of-type(2) {
+    font-size: 10px;
+  }
+
+  #sozfa-list li {
+    font-size: 14px;
+    padding: 5px;
+    padding-right: 10px;
+    margin: 1px 20px;
+  }
+
+  #sozfa-list div {
+    font-size: 14px;
+    margin: 1px 20px;
+  }
+}

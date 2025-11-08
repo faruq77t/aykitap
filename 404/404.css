@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+.icerk{
+margin-top: 20px;
+}
+.icerk img{
+  width: 200px;
+  margin-left: -30px;
+}
+.icerk a{
+  padding: 10px 40px;
+  background: #ff8902;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 10px;
+  border: 2px solid #ff8902;
+}
+.icerk a:hover{
+  padding: 10px 40px;
+  background: #fff;
+  color: #ff8902;
+  border: 2px solid #ff8902;
+}
+.bty{
+  margin: 50px;
+}
+.foto img{
+  max-width: 300px;
+  margin-left: 100px;
+
+}
+
+.yaz h2{
+ color: #fff;
+ justify-content: end;
+ justify-content: end;
+ align-items: end;
+ text-align: end;
+
+}
+.yaz p{
+  max-width: 500px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  justify-content: end;
+  align-items: end;
+  text-align: end;
+}
+
+@media (max-width: 480px) {
+  h2{
+    font-size: 16px;
+  }
+  h4{
+    font-size: 14px;
+    margin: 20px;
+    
+  }
+  .icerk{
+    margin-top: -100px;
+  }
+
+}
