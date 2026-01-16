@@ -1,0 +1,169 @@
+/* === NAKILLAR (ATALAR SÖZÜ) STİLLERİ === */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+.bslik {
+  display: flex;
+  font-size: 24px;
+  margin: 50px auto 30px;
+  justify-content: center;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.nakil-item .number {
+  background: var(--accent-violet);
+  color: white;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 10px rgba(68, 0, 214, 0.3);
+}
+
+.nakil-content .text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.nakillar {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.nakillar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 50px;
+  max-width: 900px;
+  width: 100%;
+  height: 65vh;
+  overflow-y: auto;
+  border-radius: 16px;
+  /* border: 1px solid rgba(255, 255, 255, 0.05); */
+}
+
+/* Scrollbar Customization */
+.nakillar ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+.nakillar ul::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 4px;
+}
+
+.nakillar ul::-webkit-scrollbar-thumb {
+  background: var(--bg-card);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nakillar ul::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-violet);
+}
+
+/* GİRİŞ ANİMASYONU */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nakillar li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--bg-card);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  margin-bottom: 5px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+  /* Animasyon */
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.nakillar li:nth-child(n) {
+  animation-delay: 0.1s;
+  /* Basit bir gecikme pattern'i eklenebilir ama CSS ile sınırlı */
+}
+
+.nakillar li:hover {
+  transform: translateX(-5px);
+  border-color: rgba(68, 0, 214, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: var(--bg-card);
+  /* Keep same bg, change border/shadow */
+}
+
+.nakillar h1 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--text-primary);
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.nakillar a {
+  text-decoration: none;
+  color: var(--text-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  margin-right: 15px;
+}
+
+.nakillar a:hover {
+  color: white;
+  border-color: var(--accent-violet);
+  background-color: var(--accent-violet);
+}
+
+/* === RESPONSIVE TASARIM === */
+@media (max-width: 768px) {
+  .bslik {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .nakillar ul {
+    height: 70vh;
+  }
+
+  .nakillar li {
+    padding: 15px;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .nakillar h1 {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .nakillar a {
+    align-self: flex-end;
+    margin-right: 0;
+    font-size: 13px;
+  }
+}

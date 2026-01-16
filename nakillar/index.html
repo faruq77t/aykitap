@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/aykitap_logo.png">
+  <link rel="icon" type="image/png" sizes="16x60" href="/img/aykitap_logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/aykitap_logo.png">
+  <link rel="shortcut icon" type="image/png" href="/img/aykitap_logo.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- SEO Meta Etiketleri -->
+  <title>ay-kitap.com | ترکمن کتاب لر</title>
+  <meta name="description" content="ترکمن کتاب لار pdf - ay-kitap.com">
+  <meta name="keywords" content="ay-kitap, کتاب لار, ترکمن , ترکمن کتاب لار">
+  <meta name="author" content="faruq77t">
+
+  <!-- Open Graph Meta Etiketleri (Sosyal Medya Paylaşımları için) -->
+  <meta property="og:title" content="ay-kitap Özel Sunucu - ay-kitap.com">
+  <meta property="og:description" content="ترکمن کتاب لار pdf">
+  <meta property="og:image" content="https://ay-kitap.com/img/aykitap_logo.png">
+  <meta property="og:url" content="https://ay-kitap.com">
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../hf/hf.css">
+  <link rel="stylesheet" href="nakil.css">
+</head>
+
+<body>
+
+  <div id="header-container"></div>
+
+  <h1 class="bslik"> اتالار سوزی عقلینگ گوزی </h1>
+  <section class="nakillar">
+    <ul id="nakilList"></ul>
+  </section>
+
+  <script src="nakil_data.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (typeof nakilData !== 'undefined') {
+        // Alfabetik sıralama
+        nakilData.sort((a, b) => a.nakil.localeCompare(b.nakil));
+
+        const nakilList = document.getElementById('nakilList');
+        nakilList.innerHTML = nakilData.map(nakil =>
+          `<li><h1>${nakil.nakil}</h1>  <a href="https://wa.me/5380264262?text=سلام  نقل ${nakil.id}  غلط " target="_blank"> 
+              بیلدیر
+              </a> </li>`
+        ).join('');
+      } else {
+        // Fallback if nakil_data.js fails or is missing, though we prefer offline.
+        console.error("nakilData not found.");
+      }
+    });
+  </script>
+
+  <div id="footer-container"></div>
+  <script src="../hf/hf_data.js"></script>
+  <script src="../hf/hf.js"></script>
+
+</body>
+
+</html>

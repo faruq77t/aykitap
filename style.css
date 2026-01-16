@@ -1,0 +1,757 @@
+.main-content {
+    max-width: 1400px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/* === İNDİRME PROGRESS BAR === */
+#progress-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 9999;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-violet), #8a2be2);
+    box-shadow: 0 0 10px var(--accent-violet);
+    transition: width 0.2s ease;
+}
+
+#progress-text {
+    position: fixed;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    color: var(--text-primary);
+    background: var(--bg-header);
+    padding: 2px 12px;
+    border-radius: 0 0 10px 10px;
+    font-weight: 700;
+    z-index: 10000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: none;
+}
+
+/* Welcome section artık satır 325'te tanımlı */
+
+/* === KİTAP LİSTESİ === */
+.container {
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* === YENİ KİTAP KARTI (FONTFA STİLİ) === */
+#book-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+    max-width: 1400px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.book-card {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.book-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    border-color: var(--accent-violet);
+}
+
+.card-preview {
+    background: rgba(0, 0, 0, 0.2);
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card-preview img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3));
+}
+
+.book-card:hover .card-preview img {
+    transform: scale(1.05);
+}
+
+.card-info {
+    padding: 12px;
+    text-align: center;
+}
+
+.card-info h3 {
+    font-size: 15px;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-meta {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 12px;
+}
+
+.badge {
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--text-secondary);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.card-footer {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.view-btn {
+    background: var(--accent-violet);
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex: 1;
+}
+
+.view-btn:hover {
+    background: #5511e6;
+    transform: scale(1.05);
+}
+
+.download-icon-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.download-icon-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--accent-violet);
+}
+
+/* Eski kitap stillerini temizle */
+.book {
+    display: none !important;
+}
+
+/* === SAYFALAMA === */
+.pagination {
+    text-align: center;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.pagination span {
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+    font-weight: 700;
+}
+
+.pagination span:hover {
+    border-color: var(--accent-violet);
+    color: var(--text-primary);
+}
+
+.pagination .active {
+    background-color: var(--accent-violet);
+    color: white;
+    border-color: var(--accent-violet);
+}
+
+/* === CARE COLOR === */
+* {
+    caret-color: transparent;
+}
+
+input,
+textarea {
+    caret-color: auto;
+}
+
+/* === POPUP STİLLERİ === */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    backdrop-filter: blur(10px);
+}
+
+.popup-content {
+    background-color: var(--bg-card);
+    padding: 40px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.popup-content .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--text-secondary);
+}
+
+.popup-content img {
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.popup h2 {
+    font-size: 24px;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+}
+
+.popup p {
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+}
+
+.popup-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.download-btn,
+.whatsapp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    min-width: 140px;
+}
+
+.download-btn {
+    background: var(--accent-violet);
+    color: white;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    color: white;
+}
+
+.download-btn:hover,
+.whatsapp-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    filter: brightness(1.1);
+}
+
+/* === WELCOME SECTION === */
+.welcome-section {
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.welcome-section h1 {
+    font-size: 42px;
+    color: var(--text-primary);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    color: var(--text-secondary);
+}
+
+/* === İÇERİK BLOKLARI === */
+.atlicerik,
+.atlicerik2 {
+    max-width: 1280px;
+    margin: 60px auto;
+    padding: 60px 40px;
+    border-radius: 20px;
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.atlicerik2 {
+    flex-direction: row-reverse;
+}
+
+.foto img {
+    max-width: 320px;
+    border-radius: 12px;
+}
+
+.yaz h2,
+.yaz2 h2 {
+    font-size: 28px;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.yaz h2::after,
+.yaz2 h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 3px;
+    background: var(--accent-violet);
+}
+
+.yaz p,
+.yaz2 p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* === RESPONSIVE TASARIM === */
+@media (max-width: 1200px) {
+    #book-list {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: 0 15px;
+    }
+
+    #book-list {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 15px;
+    }
+
+    .card-preview {
+        height: 280px;
+    }
+
+    /* Popup mobil iyileştirmeleri */
+    .popup-content {
+        width: 95%;
+        margin-top: 100px;
+        padding: 15px;
+    }
+
+    .popup-content img {
+        width: 180px;
+        margin-bottom: 20px;
+    }
+
+    .popup h2 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .popup p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    /* İçerik blokları mobil düzeni */
+    .atlicerik {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        margin: 20px 15px;
+    }
+
+    .foto img {
+        max-width: 200px;
+        margin: 0 auto 20px;
+    }
+
+    .yaz h2 {
+        font-size: 20px;
+    }
+
+    .yaz p {
+        font-size: 14px;
+    }
+
+    /* Atlicerik2 mobil düzeni */
+    .atlicerik2 {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        margin: 20px 15px;
+        min-height: auto;
+    }
+
+    .foto img {
+        margin-left: 0;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .yaz2 {
+        max-width: 100%;
+    }
+
+    .yaz2 h2 {
+        font-size: 20px;
+    }
+
+    .yaz2 p {
+        font-size: 14px;
+    }
+
+    /* Pagination mobil */
+    .pagination button {
+        padding: 8px 15px;
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    .pagination span {
+        padding: 8px 12px;
+        margin: 0 3px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    #book-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    .card-preview {
+        height: 320px;
+    }
+
+    .popup-content {
+        margin-top: 80px;
+        padding: 20px;
+    }
+
+    .popup-content img {
+        width: 150px;
+    }
+
+    .download-btn,
+    .popup a,
+    .yola {
+        padding: 8px 16px;
+        font-size: 14px;
+        margin: 5px;
+        display: inline-block;
+        width: 90%;
+        text-align: center;
+    }
+
+    /* Progress text mobil */
+    #progress-text {
+        font-size: 10px;
+        padding: 3px 8px;
+        top: 8px;
+    }
+
+    /* Container margin ayarı */
+    .container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Touch device iyileştirmeleri */
+@media (hover: none) and (pointer: coarse) {
+    .book:hover {
+        transform: none;
+    }
+}
+
+/* Yüksek çözünürlüklü ekranlar için */
+@media (min-width: 1400px) {
+    .main-content {
+        max-width: 1400px;
+    }
+}
+
+/* Yatay mod (landscape) için optimizasyon */
+@media (max-height: 500px) and (orientation: landscape) {
+    .popup-content {
+        margin-top: 50px;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .popup-content img {
+        margin-top: -150px;
+        max-width: 120px;
+    }
+}
+
+
+
+
+
+/* === KATEGORİ VE ALFABE BUTONLARI === */
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.category-buttons button {
+    background: var(--bg-card);
+    color: var(--text-secondary);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.category-buttons button:hover,
+.category-buttons button.active {
+    background: var(--accent-violet);
+    color: white;
+    border-color: var(--accent-violet);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(68, 0, 214, 0.2);
+}
+
+/* === DROPDOWN MENÜ (Kategoriler) - KALDIRILIYOR veya gizleniyor === */
+.dropdown {
+    display: none !important;
+}
+
+.dropbtn {
+    font-family: inherit;
+    font-weight: 600;
+    background-color: var(--bg-card);
+    color: var(--text-primary);
+    padding: 12px 30px;
+    font-size: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    border-radius: 10.5px;
+    transition: all 0.3s ease;
+}
+
+.dropbtn:hover {
+    border-color: var(--accent-violet);
+    background: rgba(68, 0, 214, 0.1);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--bg-card);
+    min-width: 200px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdown-header {
+    padding: 10px 15px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: var(--accent-violet);
+    font-weight: 700;
+    pointer-events: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: var(--text-secondary);
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--accent-violet);
+    color: #ffffff;
+}
+
+/* Dropdown'ı hover ile açma */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* === RESPONSIVE DROPDOWN === */
+@media (max-width: 768px) {
+    .dropbtn {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .dropdown-content {
+        min-width: 140px;
+    }
+
+    .dropdown-content a {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dropbtn {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    .dropdown-content {
+        min-width: 120px;
+    }
+
+    .dropdown-content a {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+}
+
+/* === ARAMA ÇUBUĞU STİLLERİ === */
+.search-container {
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-container input {
+    width: 320px;
+    padding: 12px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10.5px;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+    background: #1c1c1f;
+    color: #fff;
+    direction: rtl;
+}
+
+.search-container input:focus {
+    width: 380px;
+    border-color: var(--accent-violet);
+    box-shadow: 0 0 15px rgba(68, 0, 214, 0.2);
+}
+
+.pc_menu .search-container {
+    padding-top: 0;
+    margin: 0 40px 0 0;
+}
+
+.search-container.mobile {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.search-container.mobile input {
+    width: 100%;
+}
+
+.no-results {
+    padding: 80px 20px;
+    font-size: 18px;
+    color: var(--text-secondary);
+    text-align: center;
+    width: 100%;
+}
